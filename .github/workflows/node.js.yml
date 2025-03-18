@@ -1,0 +1,56 @@
+name: Deploy Backend  for salam project on [ naseh-dev ] Production Server
+
+on:
+  push:
+    branches:
+      - feature/calculate-distribution-perfumery-incentive
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: Checkout the frontend code
+    - name: Checkout Backend Code
+      uses: actions/checkout@v4
+
+    # Step 2: Set up SSH
+    - name: Configure SSH
+      run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SALAMDEVSSHKEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.SALAMDEVHOST }} >> ~/.ssh/known_hosts
+
+    #- name: Debug SSH Connection
+    #  run: ssh -v -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no ${{ secrets.SSH_USER_VM1 }}@${{ secrets.SSH_HOST_VM1 }} "echo Connected successfully"
+
+
+    # Step 3: Deploy Frontend Code 
+    - name: Deploy to Server 
+      run: |
+        ssh  -Av  ${{ secrets.SALAMDEVUSER }}@${{ secrets.SALAMDEVHOST }} << 'EOF'
+          set -e
+          #sudo git config --global --add safe.directory /var/www/dev-api.qefaccreditation.com
+          #cd /home/ec2-user/salam
+          #git pull 
+          #npm install --force
+          #npm audit fix --force
+          #sudo npm run sequelize:migrate
+          pm2 restart  salam
+          #sudo pm2 ls
+        EOF
+
+    # Step 4: Send Slack Notification
+    - name: Notify Slack
+      if: always() # Ensure this runs even if the deployment fails
+      run: |
+        if [ ${{ job.status }} == 'success' ]; then
+          MESSAGE=":white_check_mark: Deployment of salam-store-be , [ feature/calculate-distribution-perfumery-incentive ]  branch , succeeded on naseh-dev server."
+        else
+          MESSAGE=":x: Deployment of salam-store-be , [ feature/calculate-distribution-perfumery-incentive ] branch , failed on naseh-dev server."
+        fi
+        curl -X POST -H "Content-Type: application/json" \
+          -d "{\"text\": \"$MESSAGE\"}" \
+          https://hooks.slack.com/services/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
+          

@@ -1,0 +1,422 @@
+{
+  "DistRetailPhotography": [
+    {
+      "label": "Probation/ Training Period",
+      "type": "input:number",
+      "data": null,
+      "value": "probationTrainingPeriod",
+      "options": null,
+      "optionsType": null,
+      "identifier": "probationTrainingPeriod"
+    },
+    {
+      "label": "Team A",
+      "type": "multi-select",
+      "data": null,
+      "value": "TEAM_A",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Team B",
+      "type": "multi-select",
+      "data": null,
+      "value": "TEAM_B",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Team B2",
+      "type": "multi-select",
+      "data": null,
+      "value": "TEAM_B2",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Tech Support",
+      "type": "multi-select",
+      "data": null,
+      "value": "TECH_SUPPORT",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Merchandiser",
+      "type": "multi-select",
+      "data": null,
+      "value": "MERCHANDISER",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Team C",
+      "type": "multi-select",
+      "data": null,
+      "value": "TEAM_C",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Institutional",
+      "type": "multi-select",
+      "data": null,
+      "value": "INSTITUTIONAL",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+
+    {
+      "label": "Manager Canon",
+      "type": "multi-select",
+      "data": null,
+      "value": "MANAGER_CANON",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Back Office Canon",
+      "type": "multi-select",
+      "data": null,
+      "value": "BACK_OFFICE_CANON",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Manager Energizer",
+      "type": "multi-select",
+      "data": null,
+      "value": "MANAGER_ENERGIZER",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Back Office Energizer",
+      "type": "multi-select",
+      "data": null,
+      "value": "BACK_OFFICE_ENERGIZER",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    }
+  ],
+
+  "DistFMCG": [
+    {
+      "label": "Probation/ Training Period",
+      "type": "input:number",
+      "data": null,
+      "value": "probationTrainingPeriod",
+      "options": null,
+      "optionsType": null,
+      "identifier": "probationTrainingPeriod"
+    },
+    {
+      "label": "Sales Representative",
+      "type": "multi-select",
+      "data": null,
+      "value": "SALES_REPRESENTATIVE",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "van sales",
+      "type": "multi-select",
+      "data": null,
+      "value": "VAN_SALES",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Manager",
+      "type": "multi-select",
+      "data": null,
+      "value": "MANAGER",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Supervisor",
+      "type": "multi-select",
+      "data": null,
+      "value": "SUPERVISOR",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Merchandiser",
+      "type": "multi-select",
+      "data": null,
+      "value": "MERCHANDISER",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Back Office",
+      "type": "multi-select",
+      "data": null,
+      "value": "BACK_OFFICE",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "probationTrainingPeriod"
+    }
+  ],
+
+  "RetailFashionAndHome": [
+    {
+      "label": "Probation/ Training Period",
+      "type": "input:number",
+      "data": null,
+      "value": "probationTrainingPeriod",
+      "options": null,
+      "optionsType": null,
+      "identifier": "probationTrainingPeriod"
+    },
+    {
+      "label": "Tailor Supervisor",
+      "type": "multi-select",
+      "data": null,
+      "value": "TAILOR_SUPERVISOR",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Tailor",
+      "type": "multi-select",
+      "data": null,
+      "value": "TAILOR",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Cashier Supervisor",
+      "type": "multi-select",
+      "data": null,
+      "value": "CASHIER_SUPERVISOR",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Cashier",
+      "type": "multi-select",
+      "data": null,
+      "value": "CASHIER",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Service Staff",
+      "type": "multi-select",
+      "data": null,
+      "value": "SERVICE_STAFF",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Store Keeper",
+      "type": "multi-select",
+      "data": null,
+      "value": "STORE_KEEPER",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    }
+  ],
+  "DistHome": [
+    {
+      "label": "Probation/ Training Period",
+      "type": "input:number",
+      "data": null,
+      "value": "probationTrainingPeriod",
+      "options": null,
+      "optionsType": null,
+      "identifier": "probationTrainingPeriod"
+    },
+    {
+      "label": "Back office",
+      "type": "multi-select",
+      "data": null,
+      "value": "BACK_OFFICE",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Merchandiser",
+      "type": "multi-select",
+      "data": null,
+      "value": "MERCHANDISER",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Manager/ Supervisor Luggage",
+      "type": "multi-select",
+      "data": null,
+      "value": "MANAGER_SUPERVISOR_LUGGAGE",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Manager / Supervisor Household",
+      "type": "multi-select",
+      "data": null,
+      "value": "MANAGER_SUPERVISOR_HOUSEHOLD",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Manager/ Supervisor Institutional",
+      "type": "multi-select",
+      "data": null,
+      "value": "MANAGER_SUPERVISOR_INSTITUTIONAL",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Sales Representative",
+      "type": "multi-select",
+      "data": null,
+      "value": "SALES_REPRESENTATIVE",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Institutional - Customer Name",
+      "type": "multi-input",
+      "data": null,
+      "value": "INSTITUTIONAL_CUSTOMER_NAME",
+      "options": null,
+      "optionsType": null,
+      "identifier": "customerName"
+    }
+  ],
+  "RetailPerfumeryAndBeauty": [
+    {
+      "label": "Probation/ Training Period",
+      "type": "input:number",
+      "data": null,
+      "value": "probationTrainingPeriod",
+      "options": null,
+      "optionsType": null,
+      "identifier": "probationTrainingPeriod"
+    },
+    {
+      "label": "Back Office",
+      "type": "multi-select",
+      "data": null,
+      "value": "BACK_OFFICE",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    }
+  ],
+  "DistPerfumery": [
+    {
+      "label": "Probation/ Training Period",
+      "type": "input:number",
+      "data": null,
+      "value": "probationTrainingPeriod",
+      "options": null,
+      "optionsType": null,
+      "identifier": "probationTrainingPeriod"
+    },
+    {
+      "label": "Back office",
+      "type": "multi-select",
+      "data": null,
+      "value": "BACK_OFFICE",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Beauty Advisor",
+      "type": "multi-select",
+      "data": null,
+      "value": "BEAUTY_ADVISOR",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Fragrance Advisor",
+      "type": "multi-select",
+      "data": null,
+      "value": "FRAGRANCE_ADVISOR",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Freelance promoter",
+      "type": "multi-select",
+      "data": null,
+      "value": "FREELANCE_PROMOTER",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Beauty Advisor (Guerlain)",
+      "type": "multi-select",
+      "data": null,
+      "value": "BEAUTY_ADVISOR_GUERLAIN",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Make up Expert",
+      "type": "multi-select",
+      "data": null,
+      "value": "MAKE_UP_EXPERT",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": "Skincare Expert",
+      "type": "multi-select",
+      "data": null,
+      "value": "SKINCARE_EXPERT",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    },
+    {
+      "label": " Fragrance Expert ",
+      "type": "multi-select",
+      "data": null,
+      "value": "FRAGRANCE_EXPERT",
+      "options": null,
+      "optionsType": "employees",
+      "identifier": "employees"
+    }
+  ]
+}

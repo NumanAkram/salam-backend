@@ -1,0 +1,523 @@
+{
+  "DistPhotography": {
+    "Minimum": {
+      "BackOffice": 90,
+      "TeamEnergizer": 95,
+      "TeamNikon": 95,
+      "TeamCanon": 95,
+      "VanSales": 100,
+      "Institutional": 100,
+      "LocationIncentive": 100,
+      "Quarter": 100,
+      "QuarterAttendance": 10
+    },
+    "LocationIncentive": {
+      "percentage": 1
+    },
+    "TeamA": {
+      "95": 1500,
+      "100": 3000,
+      "110": 4000,
+      "125": 5000
+    },
+    "TeamB": {
+      "95": 1500,
+      "100": 3000,
+      "110": 4000,
+      "125": 5000
+    },
+    "TeamB2": {
+      "95": 1000,
+      "100": 2000,
+      "110": 2500,
+      "125": 3000
+    },
+    "TeamC": {
+      "95": 1500,
+      "100": 3000,
+      "110": 4000,
+      "125": 5000
+    },
+    "Merchandiser": {
+      "95": 500,
+      "100": 750,
+      "110": 1000,
+      "125": 1250
+    },
+    "TechSupport": {
+      "95": 1000,
+      "100": 2000,
+      "110": 3000,
+      "125": 4000
+    },
+
+    "Institutional": {
+      "percentage": 1
+    },
+    "VanSales": {
+      "percentage": 1.5
+    },
+    "ManagerCanon": {
+      "90": 3000,
+      "100": 4000,
+      "115": 5000
+    },
+    "BackOfficeCanon": {
+      "90": 500,
+      "100": 750,
+      "115": 1000
+    },
+    "ManagerEnergizer": {
+      "90": 3000,
+      "100": 4000,
+      "115": 5000
+    },
+    "BackOfficeEnergizer": {
+      "90": 500,
+      "100": 750,
+      "115": 1000
+    }
+  },
+  "RetailPhotography": {
+    "Minimum": 100,
+    "Percentage": {
+      "100": 1,
+      "120": 1.25,
+      "150": 1.5
+    }
+  },
+  "DistFMCG": {
+    "Minimum": { "common": 90 },
+    "SalesRepresentative": {
+      "90": 1500,
+      "100": 2500,
+      "110": 3000,
+      "120": 4000
+    },
+    "Merchandiser": {
+      "90": 600,
+      "100": 1200,
+      "110": 1500,
+      "120": 1750
+    },
+    "BackOffice": {
+      "90": 300,
+      "100": 750,
+      "110": 1000,
+      "120": 1250
+    },
+    "Manager": {
+      "90": 1750,
+      "100": 3000,
+      "110": 4000,
+      "120": 5000
+    },
+    "Supervisor": {
+      "90": 1750,
+      "100": 3000,
+      "110": 4000,
+      "120": 5000
+    },
+    "VanSales": {
+      "90": 1500,
+      "100": 2500,
+      "110": 3000,
+      "120": 4000
+    }
+  },
+  "FashionAndHome": {
+    "Minimum": {
+      "Individual": 80,
+      "Team": 80,
+      "storeManagerDepartmentStore": 90,
+      "MTM": 80
+    },
+    "SalesAchieved": {
+      "80": 1,
+      "100": 2,
+      "120": 2.5,
+      "150": 3
+    },
+    "Individual": { "Percentage": 25 },
+    "Team": { "Percentage": 75 },
+    "StoreManagerDepartmentStore": {
+      "MonthlyAchievement": {
+        "90": 0.03,
+        "100": 0.05,
+        "120": 0.06,
+        "150": 0.08,
+        "180": 0.1
+      },
+      "MonthlyAchievementPromotion": {
+        "90": 0.02,
+        "100": 0.03,
+        "120": 0.05,
+        "150": 0.06,
+        "180": 0.08
+      },
+      "MonthlyAchievementSalesPeriod": {
+        "90": 0.01,
+        "100": 0.02,
+        "120": 0.03,
+        "150": 0.05,
+        "180": 0.6
+      },
+      "FixedIncentive": {
+        "0": 250,
+        "1": 500,
+        "2": 750,
+        "3": 1000,
+        "4": 1500,
+        "5": 2000
+      }
+    },
+    "SupportTeam": {
+      "NormalPeriod": {
+        "TailorSupervisor": 250,
+        "Tailor": 250,
+        "CashierSupervisor": 500,
+        "Cashier": 300,
+        "ServiceStaff": 150,
+        "Storekeeper": 150
+      },
+      "PromotionPeriod": {
+        "TailorSupervisor": 500,
+        "Tailor": 500,
+        "CashierSupervisor": 750,
+        "Cashier": 500,
+        "ServiceStaff": 300,
+        "Storekeeper": 300
+      },
+      "SalesPeriod": {
+        "TailorSupervisor": 500,
+        "Tailor": 500,
+        "CashierSupervisor": 750,
+        "Cashier": 500,
+        "ServiceStaff": 300,
+        "Storekeeper": 300
+      }
+    },
+    "MTM": {
+      "SalesAchieved": {
+        "80": 1,
+        "100": 2,
+        "120": 2.5,
+        "150": 3
+      }
+    }
+  },
+  "DistHome": {
+    "Minimum": {
+      "Common": 90,
+      "Institutional": 100
+    },
+    "SalesRepresentative": {
+      "90": 1500,
+      "100": 2500,
+      "110": 3000,
+      "120": 4000
+    },
+    "ManagerAndSupervisor": {
+      "90": 1750,
+      "100": 3000,
+      "110": 4500,
+      "120": 6000
+    },
+    "Merchandiser": {
+      "90": 400,
+      "100": 800,
+      "110": 1000,
+      "120": 1200
+    },
+    "BackOffice": {
+      "90": 300,
+      "100": 750,
+      "110": 1000,
+      "120": 1000
+    },
+    "Institutional": {
+      "Percentage": 1
+    }
+  },
+  "RetailPerfumery": {
+    "Minimum": {
+      "BackOffice": 95,
+      "StoreManager": 95,
+      "StoreSupervisor": 95,
+      "Cashier": 95,
+      "RetailGeFr": 95
+    },
+    "CategoryName": {
+      "TopNoteStore": "TopNoteStore",
+      "4U": "4U"
+    },
+    "BackOffice": {
+      "95": 750,
+      "120": 1000
+    },
+    "StoreManager": {
+      "TopNoteStore": {
+        "95": 1000,
+        "120": 2000
+      },
+      "4U": {
+        "95": 3000,
+        "120": 6000
+      }
+    },
+    "StoreSupervisor": {
+      "TopNoteStore": {
+        "95": 1000,
+        "120": 2000
+      },
+      "4U": {
+        "95": 1500,
+        "120": 2000
+      }
+    },
+    "Cashier": {
+      "TopNoteStore": {
+        "95": 250,
+        "120": 500
+      },
+      "4U": {
+        "95": 500,
+        "120": 750
+      }
+    },
+    "RetailGeFr": {
+      "TopNoteStore": {
+        "NormalPeriod": { "95": 1, "120": 2 },
+        "SalesPeriod": { "95": 0.5, "120": 1 }
+      },
+      "4U": {
+        "NormalPeriod": { "95": 1, "120": 2 },
+        "SalesPeriod": { "95": 0.5, "120": 1 }
+      }
+    }
+  },
+  "DistPerfumery": {
+    "Minimum": {
+      "BackOffice": 95,
+      "StoreManager": 95,
+      "StoreSupervisor": 95,
+      "Cashier": 95,
+      "RetailGeFr": 95,
+      "BeautyAdvisor":95,
+      "FragranceAdvisor":95,
+      "FreelancePromoter":95,
+      "MakeUpExpert":95,
+      "SkincareExpert":95,
+      "FragranceExpert":95,
+      "SalesAndMarketingSupervisor":95,
+      "BrandManager":95,
+      "Freelance":0
+    },
+    "Groups": {
+      "L'OREAL Group": [
+        "CACHAREL (P)",
+        "DIESEL (P)",
+        "GIORGIO ARMANI (P)",
+        "LANCOME",
+        "MAISON MARGIELA (P)",
+        "PRADA LUXE",
+        "RALPH LAUREN (P)",
+        "VALENTINO (P)",
+        "VIKTOR & ROLF",
+        "YVES SAINT LAURENT"
+      ],
+      "E. LAUDER GROUP": [
+        "AERIN",
+        "ARAMIS",
+        "CLINIQUE",
+        "ESTEE LAUDER",
+        "TOM FORD (P)",
+        "TOMMY HILFIGER (P)"
+      ],
+      "GUERLAIN": [
+        "GUERLAIN"
+      ],
+      "COTY": [
+        "ALEXANDER MCQUEEN",
+        "BOTTEGA VENETTA",
+        "BURBERRY (P)",
+        "CALVIN KLEIN (P)",
+        "CHLOE (P)",
+        "DAVIDOFF (P)",
+        "ESCADA BEAUTE",
+        "GUCCI (P)",
+        "HUGO BOSS (P)",
+        "JAMES BOND",
+        "LACOSTE (P)",
+        "LANCASTER (P)",
+        "MARC JACOBS (P)",
+        "MIU MIU",
+        "ROBERTO CAVALLI (P)",
+        "STELLA MCCARTNEY (P)",
+        "TIFFANY AND CO. (PERFUME)"
+      ],
+      "PREMIUIM": [
+        "ABERCROMBIE & FITCH",
+        "AGENT PROVOCATEUR",
+        "ALEXANDER J",
+        "ALFRED DUNHILL",
+        "BANANA REPUBLIC",
+        "BEBE",
+        "BOUCHERON",
+        "COACH (P)",
+        "DKNY",
+        "ETRO (P)",
+        "GAPC",
+        "GRAFF",
+        "GUESS (P)",
+        "JIMMY CHOO (P)",
+        "KARL LAGERFELD (P)",
+        "KATE SPADE (P)",
+        "LANVIN (P)",
+        "MANCERA",
+        "MONCLER (P)",
+        "MONTBLANC",
+        "OLIVARES",
+        "OSCAR DE LA RENTA",
+        "REPETTO",
+        "ROCHAS (P)",
+        "SALVATORE FERRAGAMO",
+        "UNGARO",
+        "VAN CLEEF & ARPELS"
+      ],
+      "D & G": [
+        "DOLCE & GABBANA"
+      ],
+      "PUIG": [
+        "ANTONIO BANDERAS",
+        "CAROLINA HERRERA (P)",
+        "CHRISTIAN LOUBOUTIN",
+        "COMME DE GARCONS",
+        "JEAN PAUL GAULTIER (P)",
+        "NINA RICCI (P)",
+        "PACO RABANNE",
+        "PENHALIGONS"
+      ],
+      "SHISEIDO": [
+        "BALDESSARINI",
+        "BASSAM FATTOUH",
+        "BIOVAJ (PE DIST)",
+        "BVLGARI (P)",
+        "CHOPARD (P)",
+        "EMPEROR BLUE",
+        "EYECANDY JOELLE",
+        "FORMULA 1",
+        "PHILIPP PLEIN (P)",
+        "ROOS AND ROOS"
+      ]
+    },
+    "BeautyAdvisor":{
+      "Fragrance":{
+        "95":1,
+        "120":1.5
+      },
+      "MakeUp":{
+        "95":2,
+        "120":2.5
+      },
+      "SkinCare":{
+        "95":3,
+        "120":3.5
+      },
+      "Guerlain": {
+        "Fragrance": {
+          "95": 2,
+          "120": 2.5
+        },
+        "MakeUp": {
+          "95": 1,
+          "120": 1.5
+        },
+        "SkinCare": {
+          "95": 3,
+          "120": 3.5
+        }
+      }
+    },
+    "BackOffice": {
+      "95": 750,
+      "120": 1000
+    },
+    "FragranceAdvisor": {
+      "Fragrance": {
+        "95": 1,
+        "120": 1.5
+      },
+      "MakeUp": {
+        "95": 2,
+        "120": 2.5
+      },
+      "SkinCare": {
+        "95": 3,
+        "120": 3.5
+      }
+    },
+    "FreelancePromoter": {
+      "Fragrance": {
+        "95": 1,
+        "120": 1.5
+      },
+      "MakeUp": {
+        "95": 2,
+        "120": 2.5
+      },
+      "SkinCare": {
+        "95": 3,
+        "120": 3.5
+      }
+    },
+    "MakeUpExpert": {
+      "Fragrance": {
+        "95": 1
+      },
+      "MakeUp": {
+        "95": 2.5
+      },
+      "SkinCare": {
+        "95": 2
+      }
+    },
+    "SkincareExpert": {
+      "Fragrance": {
+        "95": 1
+      },
+      "MakeUp": {
+        "95": 1.5
+      },
+      "SkinCare": {
+        "95": 3.5
+      }
+    },
+    "FragranceExpert": {
+      "Fragrance": {
+        "95": 1.5
+      },
+      "MakeUp": {
+        "95": 1
+      },
+      "SkinCare": {
+        "95": 2
+      }
+    },
+    "SalesAndMarketingSupervisor": {
+      "95": 2000,
+      "120": 3000
+    },
+    "BrandManager": {
+      "95": 2000,
+      "100": 3000,
+      "110": 5000
+    },
+    "Freelance": 2,
+    "CategoryName": {
+      "FRAGRANCE": "Fragrance",
+      "MAKEUP": "MakeUp",
+      "SKINCARE": "SkinCare"
+    }
+  }
+}

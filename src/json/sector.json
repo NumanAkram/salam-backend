@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Fashion & Home",
+    "slug": "RETAIL_FASHION_AND_HOME",
+    "type": "Retail"
+  },
+  {
+    "name": "Home",
+    "slug": "DISTRIBUTION_HOME",
+    "type": "Distribution"
+  },
+  {
+    "name": "FMCG",
+    "slug": "DISTRIBUTION_FMCG",
+    "type": "Distribution"
+  },
+  {
+    "name": "Perfumery/Beauty",
+    "slug": "RETAIL_PERFUMERY",
+    "type": "Retail"
+  },
+  {
+    "name": "Perfumery/Beauty",
+    "slug": "DISTRIBUTION_PERFUMERY",
+    "type": "Distribution"
+  },
+  {
+    "name": "Photography",
+    "slug": "DISTRIBUTION_RETAIL_PHOTOGRAPHY",
+    "type": "Distribution & Retail"
+  }
+]

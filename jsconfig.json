@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES5",
+    "baseUrl": "./",
+    "paths": {
+      "@middlewares": ["src/middlewares/index"],
+      "@middlewares/*": ["src/middlewares/*"],
+      "@utils/": ["src/utils/index"],
+      "@utils/*": ["src/utils/*"],
+      "@modules/*": ["src/modules/*"],
+      "@modules/": ["src/modules/index"],
+      "@routes/*": ["src/routes/*"],
+      "@routes/": ["src/routes/index"],
+      "@models/*": ["src/db/models/*"],
+      "@models/": ["src/db/models/index"],
+      "@services/*": ["src/services/*"],
+      "@services/": ["src/services/index"],
+      "@json/*": ["src/json/*"],
+      "@json/": ["src/json/index"],
+      "@enums/": ["src/db/enums"],
+      "@enums/*": ["src/db/enums/*"]
+    }
+  },
+  "exclude": ["node_modules", "test"]
+}

@@ -1,0 +1,50 @@
+{
+  "0": {
+    "month": "January",
+    "abbreviate": "JAN"
+  },
+  "1": {
+    "month": "February",
+    "abbreviate": "FEB"
+  },
+  "2": {
+    "month": "March",
+    "abbreviate": "MAR"
+  },
+  "3": {
+    "month": "April",
+    "abbreviate": "APR"
+  },
+  "4": {
+    "month": "May",
+    "abbreviate": "MAY"
+  },
+  "5": {
+    "month": "June",
+    "abbreviate": "JUN"
+  },
+  "6": {
+    "month": "July",
+    "abbreviate": "JUL"
+  },
+  "7": {
+    "month": "August",
+    "abbreviate": "AUG"
+  },
+  "8": {
+    "month": "September",
+    "abbreviate": "SEP"
+  },
+  "9": {
+    "month": "October",
+    "abbreviate": "OCT"
+  },
+  "10": {
+    "month": "November",
+    "abbreviate": "NOV"
+  },
+  "11": {
+    "month": "December",
+    "abbreviate": "DEC"
+  }
+}
